@@ -5,34 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<link rel="stylesheet" href="css/main.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 </head>
 <body>
-	<div data-role="page">
+	<div data-role="page" class="pageBackground">
 
 		<div data-role="header">
-			<h1>My Title</h1>
+			<h1>Welcome to UneTrip</h1>
 		</div>
 		<!-- /header -->
 
-		<div role="main" class="ui-content">
-			<ul data-role="listview" data-inset="true" data-filter="true">
-				<li><a href="#">Acura</a></li>
-				<li><a href="#">Audi</a></li>
-				<li><a href="#">BMW</a></li>
-				<li><a href="#">Cadillac</a></li>
-				<li><a href="#">Ferrari</a></li>
-			</ul>
+		<div data-role="main" class="ui-content pageFullScreen">
+			<input data-type="search" data-clear-btn="false">
 		</div>
 		<!-- /content -->
-
-		<div data-role="footer">
-			<h4>My Footer</h4>
-		</div>
-		<!-- /footer -->
 
 	</div>
 	<!-- /page -->
